@@ -1,6 +1,6 @@
 # -----------------------------------------------------------------
-# .gitignore for WordPress @salcode
-# ver 20160309
+# .gitignore for WordPress @salcode for salferrarello.com example
+# ver 20170228
 #
 # From the root of your project run
 # curl -O https://gist.githubusercontent.com/salcode/b515f520d3f8207ecd04/raw/.gitignore
@@ -16,6 +16,7 @@
 # git rm --cached
 #
 # Change Log:
+# 20170228 Whitelist my theme (saltheme) and site specific plugin (salferrarello-com-mods)
 # 20160309 Added favicon files as whitelisted files
 # 20150302 Added composer.json as a whitelisted file
 # 20150227 Created as fork of https://gist.github.com/salcode/9940509,
@@ -102,5 +103,6 @@ Thumbs.db
 # track these mu-plugins, plugins, and themes
 # add your own entries here
 !wp-content/mu-plugins/example-mu-plugin/
-!wp-content/plugins/example-plugin/
-!wp-content/themes/example-theme/
+
+!wp-content/plugins/salferrarello-com-mods/
+!wp-content/themes/saltheme/
