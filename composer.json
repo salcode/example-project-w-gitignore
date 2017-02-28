@@ -49,6 +49,8 @@
 
 		"wpackagist-plugin/anti-spam": ">=4.3",
 		"wpackagist-plugin/disable-xml-rpc": ">=1.0.0",
+		"wpackagist-plugin/format-media-titles": ">=0.30",
+
 		"wpackagist-plugin/hash-link-scroll-offset": ">=0.1.8",
 		"wpackagist-plugin/hide-youtube-related-videos": ">=1.4.2",
 		"wpackagist-plugin/page-links-to": ">=2.9.9",
