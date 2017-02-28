@@ -1,0 +1,23 @@
+# ignore all files starting with .
+\.*
+# include .gitignore (i.e. do NOT ignore)
+!.gitignore
+# include .editorconfig (i.e. do NOT ignore)
+!.editorconfig
+# ignore all files that start with ~
+~*
+# ignore css map
+css/style.min.css.map
+
+# compressed version of javascript (created with grunt / uglify)
+js/javascript.min.js
+
+# ignore node/grunt dependencies
+# these are easily recreated on a new project
+# with `npm install`
+node_modules/
+
+# ignore composer dependencies
+# these are easily recreated on a new project
+# with `composer install`
+vendor/

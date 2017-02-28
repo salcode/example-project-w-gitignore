@@ -1,0 +1,46 @@
+/* Widget Styling
+------------------------------------------------------------ */
+
+// default widget styles
+.widget {
+    @extend .clearfix;
+    background-color: $widgetBgColor;
+    border: 1px solid $widgetBorderColor;
+    color: $widgetFontColor;
+    padding: $padding-large-vertical $padding-large-horizontal;
+    border-radius: $border-radius-large;
+    margin-bottom: ($line-height-computed * 1.5);
+
+    ul {
+        padding-left: 0;
+
+        ul {
+            padding-left: $padding-large-horizontal;
+        }
+    }
+
+    li {
+        list-style-type: none;
+        word-wrap: break-word;
+        padding-bottom: $padding-large-vertical;
+
+    }
+
+    table {
+        @extend .table;
+        @extend .table-condensed;
+    }
+}
+
+.widget_search {
+    .search-query {
+        margin-bottom: 10px;
+    }
+}
+
+// includes ID in selector for specificity
+.widget_calendar #wp-calendar {
+    th, td {
+        padding: 0;
+    }
+}
