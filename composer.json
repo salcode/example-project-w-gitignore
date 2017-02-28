@@ -12,6 +12,10 @@
 		},
 		{
 			"type": "vcs",
+			"url": "https://github.com/salcode/bootstrap-genesis.git"
+		},
+		{
+			"type": "vcs",
 			"url": "https://github.com/salcode/bootstrap-genesis-fixed-nav.git"
 		},
 		{
@@ -35,8 +39,10 @@
 	"require": {
 		"salcode/genesis": "dev-master",
 
+		"salcode/bootstrap-genesis": "dev-develop",
 		"salcode/bootstrap-genesis-fixed-nav": "dev-master",
 		"salcode/genesis-last-modified-post-info": "dev-master",
+		"salcode/salferrarello-com-mods": "dev-master",
 
 		"afragen/github-updater": "^6.2.2",
 		"bradyvercher/gistpress": "dev-master",
