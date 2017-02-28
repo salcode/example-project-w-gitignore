@@ -1,0 +1,10 @@
+{
+	"name": "salcode/salferrarello-com-mods",
+	"description": "A WordPress plugin to add my customizations to Bootstrap Genesis on salferrarello.com",
+	"type": "wordpress-plugin",
+	"homepage": "https://github.com/salcode/salferrarello-com-mods",
+	"license": "GPL-2.0+",
+	"require": {
+		"composer/installers": "~1.0"
+	}
+}
