@@ -1,0 +1,61 @@
+{
+	"name": "salcode/salferrarello.com",
+	"description": "Ferrarello.com Wordpress website",
+	"repositories": [
+		{
+			"type": "composer",
+			"url": "https://wpackagist.org"
+		},
+		{
+			"type": "vcs",
+			"url": "https://salcode@bitbucket.org/salcode/genesis.git"
+		},
+		{
+			"type": "vcs",
+			"url": "https://github.com/salcode/bootstrap-genesis-fixed-nav.git"
+		},
+		{
+			"type": "vcs",
+			"url": "https://github.com/salcode/genesis-last-modified-post-info.git"
+		},
+		{
+			"type": "vcs",
+			"url": "https://github.com/salcode/salferrarello-com-mods"
+		},
+		{
+			"type": "vcs",
+			"url": "https://github.com/afragen/github-updater"
+		},
+		{
+			"type": "vcs",
+			"url": "https://github.com/bradyvercher/gistpress"
+		}
+
+	],
+	"require": {
+		"salcode/genesis": "dev-master",
+
+		"salcode/bootstrap-genesis-fixed-nav": "dev-master",
+		"salcode/genesis-last-modified-post-info": "dev-master",
+
+		"afragen/github-updater": "^6.2.2",
+		"bradyvercher/gistpress": "dev-master",
+
+		"wpackagist-plugin/anti-spam": ">=4.3",
+		"wpackagist-plugin/disable-xml-rpc": ">=1.0.0",
+		"wpackagist-plugin/hash-link-scroll-offset": ">=0.1.8",
+		"wpackagist-plugin/hide-youtube-related-videos": ">=1.4.2",
+		"wpackagist-plugin/page-links-to": ">=2.9.9",
+		"wpackagist-plugin/sg-cachepress": ">=3.0.5",
+		"wpackagist-plugin/simple-google-analytics-tracking": ">=1.1.0",
+		"wpackagist-plugin/tiny-compress-images": ">=2.2.2",
+		"wpackagist-plugin/wordpress-seo": ">=4.4"
+	},
+	"require-dev": {
+		"wpackagist-plugin/dynamic-hostname": ">0.1.0",
+		"wpackagist-plugin/genesis-visual-hook-guide": ">0.9.0",
+		"wpackagist-plugin/livereload": ">=2.0",
+		"wpackagist-plugin/transients-manager": ">1.7.0",
+		"wpackagist-plugin/stop-emails": ">1.0.0"
+	}
+}
